@@ -1,7 +1,7 @@
 # test coverage for  [gulp-bump (v2.7.0)](http://github.com/stevelacy/gulp-bump)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-bump.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-bump) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-bump.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-bump)
 #### Bump npm versions with Gulp (gulpjs.com)
 
-[![NPM](https://nodei.co/npm/gulp-bump.png?downloads=true)](https://www.npmjs.com/package/gulp-bump)
+[![NPM](https://nodei.co/npm/gulp-bump.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-bump)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-bump/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-bump/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-bump/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-bump/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-bump/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-bump/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-bump/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-gulp-bump/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-bump/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-bump/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-bump%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-bump/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-bump/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-bump/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-bump/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-bump%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-bump/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-gulp-bump/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-bump/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-bump/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-bump/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-bump/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-bump/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-bump/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-bump/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-bump/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +34,6 @@
 {
     "author": {
         "name": "Steve Lacy",
-        "email": "me@slacy.me",
         "url": "http://slacy.me"
     },
     "bugs": {
@@ -71,13 +76,11 @@
     "main": "./index.js",
     "maintainers": [
         {
-            "name": "stevelacy",
-            "email": "me@slacy.me"
+            "name": "stevelacy"
         }
     ],
     "name": "gulp-bump",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/stevelacy/gulp-bump.git"
