@@ -1,4 +1,7 @@
-# test coverage for  [gulp-bump (v2.7.0)](http://github.com/stevelacy/gulp-bump)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-bump.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-bump) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-bump.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-bump)
+# npmtest-gulp-bump
+
+#### basic test coverage for  [gulp-bump (v2.7.0)](http://github.com/stevelacy/gulp-bump)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-bump.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-bump) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-bump.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-bump)
+
 #### Bump npm versions with Gulp (gulpjs.com)
 
 [![NPM](https://nodei.co/npm/gulp-bump.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-bump)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-bump/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-bump/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-bump/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-bump/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-bump/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-bump/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-bump/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-bump/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-bump/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-bump/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-bump/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-bump/build/coverage.html/index.html)
 
@@ -88,7 +91,8 @@
     "scripts": {
         "test": "mocha --reporter spec"
     },
-    "version": "2.7.0"
+    "version": "2.7.0",
+    "bin": {}
 }
 ```
 
